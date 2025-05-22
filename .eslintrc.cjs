@@ -20,7 +20,6 @@ module.exports = {
 
     // Common rules set to warning level
     "no-unused-vars": "warn", // Unused variables
-    "no-console": "warn", // Console statements
     "react/prop-types": "warn", // Missing prop validations
     "react-hooks/exhaustive-deps": "warn", // Dependencies in hooks
     "no-debugger": "warn", // Debugger statements
