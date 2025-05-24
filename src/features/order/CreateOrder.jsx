@@ -58,7 +58,13 @@ function CreateOrder() {
         <div>
           <label>Phone number</label>
           <div>
-            <input type="tel" name="phone" required className="input" />
+            <input
+              placeholder="123-456-7890"
+              type="tel"
+              name="phone"
+              required
+              className="input"
+            />
           </div>
           {formErrors?.phone && <p>{formErrors.phone}</p>}
         </div>
@@ -66,7 +72,13 @@ function CreateOrder() {
         <div>
           <label>Address</label>
           <div>
-            <input type="text" name="address" required className="input" />
+            <input
+              placeholder="123 Main St, Anytown, USA"
+              type="text"
+              name="address"
+              required
+              className="input"
+            />
           </div>
         </div>
 
