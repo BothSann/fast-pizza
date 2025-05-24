@@ -6,6 +6,7 @@ import {
   formatCurrency,
   formatDate,
 } from "../../utils/helpers";
+import { getOrder } from "../../services/apiRestaurant";
 
 function Order() {
   // Everyone can search for all orders, so for privacy reasons we're gonna gonna exclude names or address, these are only for the restaurant staff
@@ -49,6 +50,11 @@ function Order() {
       </div>
     </div>
   );
+}
+
+export async function orderLoader({ params }) {
+  const orderData = await getOrder(params.orderId);
+  return orderData;
 }
 
 export default Order;
