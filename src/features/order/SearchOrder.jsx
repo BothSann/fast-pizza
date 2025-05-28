@@ -15,7 +15,6 @@ function SearchOrder() {
   return (
     <form onSubmit={(e) => handleSubmit(e)}>
       <div>
-        <p>{query}</p>
         <input
           placeholder="Search Order #"
           value={query}
