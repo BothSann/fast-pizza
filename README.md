@@ -208,7 +208,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## 🙏 Acknowledgments
 
-- Pizza API provided by [Jonas Schmedtmann](https://react-fast-pizza-api.jonas.io/)
+- Pizza API provided by [Jonas Schmedtmann](https://jonas.io/)
 - Geolocation services by [BigDataCloud](https://www.bigdatacloud.com/)
 - Icons and design inspiration from modern web applications
 
